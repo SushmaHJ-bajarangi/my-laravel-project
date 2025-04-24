@@ -1,0 +1,29 @@
+@extends('layouts.app')
+
+@section('content')
+<section class="content-header">
+    <h1>
+        Dispatch Stage/Lot Status
+    </h1>
+</section>
+<div class="content">
+    @include('adminlte-templates::common.errors')
+    <div class="box box-primary">
+        <div class="box-body">
+            <div class="row">
+                <form action="{{url('dispatch_stage_lot_status/update/'.$data->id)}}" method="post" >
+                    @csrf
+                    <div class="form-group col-sm-6">
+                        <label>Name:</label>
+                        <input type="text" name="name" class="form-control" value="{{$data->Name ?? null}}" id="name" required>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <button type="submit" class="btn btn-primary">Update</button>
+                        <a href="{{ url('dispatch_stage_lot_status') }}" class="btn btn-default">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

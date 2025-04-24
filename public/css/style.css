@@ -1,0 +1,187 @@
+/***************************************************************************************************//*app.css*/
+.user {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+/*app.css*//***************************************************************************************************/
+.marginTop {
+    margin-top: 20px;
+}
+
+.visibleNone {
+    visibility: hidden;
+}
+
+.plan-btn-group {
+    display: flex;
+    margin-top: 19px;
+}
+/********************************************************************************************************//*raise ticket css*/
+.raise_ticket_image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/********************************************************************************************************//*customer product css*/
+.select2-container .select2-selection--single{
+    height: 35px !important;
+    border: 1px solid #d2d6de;
+    border-radius: 0 !important;
+}
+/*******************************************************************************************************//*customer product collapasable*/
+/*.collapse.in { min-height: 50px;border: 1px solid blue; }*/
+#cutomer_detail {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width :240px;
+    height: 100%;
+    padding: 16px;
+    margin-left: 37px;
+    background-color: white;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 1.9;
+
+
+}
+
+#toggle_text{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin-left: 37px;
+    position: relative;
+    overflow-y: auto;
+    max-height: 170px;
+    width:200px;
+    padding: 7px;
+}
+
+.assigned{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fcf8e3;
+    height: 180px;
+    margin-left: 22px;
+    margin-right: 21px;
+}
+
+.model-heading{
+    margin-left:18px;
+}
+.modal .panel-body {
+    color: #444;
+}
+
+.rowcolorbg td {
+    background: #fcf8e3;
+}
+
+.assignes{
+    background-color: #e8ebf6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 180px;
+    margin-left: 22px;
+    margin-right: 21px;
+}
+
+
+
+/*lift pages css*/
+
+.nav-menu ul li {
+    margin-left: -20px;
+    line-height: 3.333em;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+.nav-menu ul li a:hover {
+    color: white;
+}
+.nav-menu ul li.active a{
+    color: white;
+}
+.lift-pages{
+    margin-left: 6px!important;
+
+}
+#card-part{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    padding: 9px!important;
+    border-style:solid !important;
+    margin-top: 8px!important;
+    border-color:#eae1c2!important;
+    border-width: 1px 1px 1px 1px !important;
+}
+.partstb{
+    background-color:white!important;
+}
+
+#sttt{
+    border-style: solid;
+    border-color: #f4e9da;
+}
+#borede_tab{
+    border-style: solid;
+    border-color: #f4e9da;
+    border-width: 2px 2px 2px 2px !important;
+
+}
+.lift-pages .active{
+    color:white;
+}
+
+#service_text {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    background-color: white;
+    margin-left: 37px;
+    position: relative;
+    overflow-y: auto;
+    /* max-height: 170px; */
+    width: 450px;
+    padding: 7px;
+}
+
+#transaction_history{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    padding: 21px;
+}
+
+.raised_persons{
+    margin-left:13px;
+}
+.col-12.text-center.Chart-title {
+    margin: 0;
+    padding: 0;
+    background: white;
+    width: 97%;
+    position: relative;
+    left: 17px;
+    box-shadow: 3px 3px 1px #9869cf;
+    font-size: x-large;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
