@@ -637,7 +637,7 @@ class customer_productsController extends AppBaseController
         set_time_limit(300);
         $pdf = Pdf::loadview('customer_products.jayanthilal_pdf');
         return $pdf->stream('jayanthilal.pdf');
-    }git
+    }
 
     public function jayasheela()
     {
